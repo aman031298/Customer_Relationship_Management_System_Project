@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/Bhavya Patel/Downloads/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bhavya Patel/Downloads/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bhavya Patel/Downloads/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bhavya Patel/Downloads/jakarta.servlet-api-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bhavya Patel/Downloads/javax.servlet-api-4.0.1 (2).jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bhavya Patel/Downloads/tomcat-servlet-api-11.0.0-M18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bhavya Patel/Downloads/ojdbc11.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

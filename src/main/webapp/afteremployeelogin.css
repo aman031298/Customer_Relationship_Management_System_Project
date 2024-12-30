@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+   margin: 0;
+   font-family: Arial, sans-serif;
+ }
+ 
+ .container {
+   display: flex;
+ }
+ 
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 15%;
+   background-color: rgba(219, 214, 203, 0.449);
+   height: 100vh;
+   overflow: auto;
+ }
+ 
+ li {
+   margin: 20px 0;
+ }
+ 
+ li a {
+   display: block;
+   color: #000;
+   padding: 8px 16px;
+   text-decoration: none;
+   font-weight: bold;
+ }
+ 
+ li a:hover {
+   background-color: #c4a484;
+   color: white;
+ }
+ 
+ .myimage {
+   background-image: url("project_logo.png");
+   background-color: #cccccc;
+   height: 100vh; /* Adjust as needed */
+   flex: 1; /* Take up remaining space */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }

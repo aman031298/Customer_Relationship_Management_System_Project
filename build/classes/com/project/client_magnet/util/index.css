@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  color: #000;
+  background: #fff;
+}
+
+nav {
+  position: fixed;
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+  height: 80px;
+  top: 0;
+}
+
+.menu {
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.logo img {
+  width: 50px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.menu .logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.menu ul li:first-child {
+  margin-left: 0;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px); /* Adjusted to fit the remaining viewport height */
+}
+
+.img {
+  background: url('project_logo.png') no-repeat center/cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(5px);
+}
+
+.img::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}.center {
+  text-align: center; /* Center-align the text horizontally */
+}
+
+.title {
+  margin: 0; /* Ensure no margin */
+  padding: 0; /* Ensure no padding */
+  position: relative; /* Required for animation */
+  animation: slideLeftRight 10s linear infinite alternate; /* Define the animation */
+  transform: translateX(-100%); /* Initially position the text to the left */
+}
+
+@keyframes slideLeftRight {
+  0% {
+    transform: translateX(-100%); /* Start from left */
+  }
+  100% {
+    transform: translateX(100%); /* Move to the right */
+  }
+}
+
+ .center .title,
+.center {
+  color: #fff;
+  font-size: 55px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+} 
+
