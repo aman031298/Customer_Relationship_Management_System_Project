@@ -33,6 +33,11 @@ Client Magnet-CRM is a comprehensive Customer Relationship Management (CRM) syst
 - **System Flow Diagram**: Outlines the system's operational flow.
 
 ---
+## Images
+
+   ![image](https://github.com/user-attachments/assets/cb1e2d9f-668d-4e57-9071-0c55b0137f72)
+
+   ![image](https://github.com/user-attachments/assets/394deea2-ade6-4d54-af90-862b10942432)
 
 ## Installation
 
@@ -40,8 +45,5 @@ Client Magnet-CRM is a comprehensive Customer Relationship Management (CRM) syst
    ```bash
    [git clone https://github.com/YourUsername/Client-Magnet-CRM.git](https://github.com/aman031298/Customer_Relationship_Management_System_Project.git)
 
-   ![image](https://github.com/user-attachments/assets/cb1e2d9f-668d-4e57-9071-0c55b0137f72)
-
-   ![image](https://github.com/user-attachments/assets/394deea2-ade6-4d54-af90-862b10942432)
 
 
